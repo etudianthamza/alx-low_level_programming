@@ -11,7 +11,7 @@ int main(void)
 {
 	int ch = 0;
 
-	for (; ch <= 16; ch++)
+	for (; ch < 16; ch++)
 	{
 		if (ch < 10)
 		{
