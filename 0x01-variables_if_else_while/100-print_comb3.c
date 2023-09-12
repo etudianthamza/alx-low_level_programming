@@ -9,9 +9,13 @@
 
 int main(void)
 {
-	for (int i = 0; i <= 9; i++)
+	int i = 0;
+
+	for (; i <= 9; i++)
 	{
-		for (int j = i + 1; j <= 9; j++)
+		int j = i + 1;
+
+		for (; j <= 9; j++)
 		{
 			putchar('0' + i);
 			putchar('0' + j);
