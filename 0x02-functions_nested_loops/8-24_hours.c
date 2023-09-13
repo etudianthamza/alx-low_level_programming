@@ -38,7 +38,9 @@ void jack_bauer(void)
 	}
 	for (h = 10 ; h < 24 ; h++)
 	{
-		for (int s = 0; s < 60 ; s++)
+		int s = 0;
+
+		for (; s < 60 ; s++)
 		{
 			if (s < 10)
 			{
