@@ -11,5 +11,8 @@
 
 int _abs(int i)
 {
-	return (sqrt(i * i));
+	int r;
+
+	r = i * i;
+	return (sqrt(r));
 }
