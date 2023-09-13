@@ -1,4 +1,5 @@
 #include "main.h"
+#include <math.h>
 
 /**
  * _abs - write the alphabets in lowercase
