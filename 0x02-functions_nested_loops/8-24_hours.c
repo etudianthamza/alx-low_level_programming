@@ -29,10 +29,10 @@ void jack_bauer(void)
 			}
 			else
 				_putchar('0');
-			_putchar('0' + h);
-			_putchar(':');
-			_putchar('0' + s);
-			_putchar('\n');
+				_putchar('0' + h);
+				_putchar(':');
+				_putchar('0' + s);
+				_putchar('\n');
 		}
 		h++;
 	}
