@@ -1,5 +1,4 @@
 #include "main.h"
-#include <math.h>
 
 /**
  * _abs - write the alphabets in lowercase
@@ -11,8 +10,10 @@
 
 int _abs(int i)
 {
-	int r;
-
-	r = sqrt(i * i);
-	return (r);
+	if (i < 0)
+	{
+		return (-i);
+	}
+	else
+		return (i);
 }
