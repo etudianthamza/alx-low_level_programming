@@ -16,7 +16,12 @@ int print_last_digit(int u)
 		_putchar('0' + (-u) % 10);
 		return (-u % 10);
 	}
-	else
+	else if (u = INT_MIN)
+	{
+		_putchar('0' + 8);
+		return (-u % 10);
+	}
+	else 
 		_putchar('0' + u % 10);
 	return (u % 10);
 }
