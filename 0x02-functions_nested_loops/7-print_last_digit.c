@@ -18,8 +18,8 @@ int print_last_digit(int u)
 	}
 	else if (u == INT_MIN)
 	{
-		_putchar('0' + (-u) % 10);
-		return (-u % 10);
+		_putchar('8');
+		return (8);
 	}
 	else
 		_putchar('0' + u % 10);
