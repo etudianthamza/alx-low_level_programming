@@ -20,16 +20,16 @@ void times_table(void)
 			{
 				if ((j * h) > 9)
 				{
-					_putchar(' ');
 					_putchar(',');
+					_putchar(' ');
 					_putchar(((j * h) / 10) + '0');
 					_putchar(((j * h) % 10) + '0');
 				}
 				else
 				{
-					_putchar(' ');
-					_putchar(' ');
 					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
 					_putchar((j * h) + '0');
 				}
 			}
