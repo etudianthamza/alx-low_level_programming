@@ -18,14 +18,30 @@ void times_table(void)
 		{
 			if (j < 9)
 			{
-				_putchar((j * h) + '0');
-				_putchar(',');
-				_putchar(' ');
+				if ((j * h) > 9)
+				{
+					_putchar(((j * h) / 10) + '0');
+					_putchar(((j * h) % 10) + '0');
+					_putchar(',');
+					_putchar(' ');
+				}
+				else
+				{
+					_putchar((j * h) + '0');
+					_putchar(',');
+					_putchar(' ');
+				}
 			}
 			else
-				_putchar((j * h) + '0');
+			{
+				if ((j * h) > 9)
+				{
+					_putchar(((j * h) / 10) + '0');
+					_putchar(((j * h) % 10) + '0');
+				}
+				else
+					_putchar((j * h) + '0');
+			}
 		}
-		_putchar('\n');
-		h++;
 	}
 }
