@@ -18,7 +18,7 @@ int print_last_digit(int u)
 	}
 	else if (u == INT_MIN)
 	{
-		_putchar('8');
+		_putchar(56);
 		return (8);
 	}
 	else
