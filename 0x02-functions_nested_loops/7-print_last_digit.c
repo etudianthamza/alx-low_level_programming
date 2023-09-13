@@ -11,15 +11,15 @@
 
 int print_last_digit(int u)
 {
-	if (u < 0 && u == INT_MIN)
+	if (u < 0)
 	{
 		_putchar('0' + (-u) % 10);
 		return (-u % 10);
 	}
 	else if (u == INT_MIN)
 	{
-		_putchar(56);
-		return (8);
+		_putchar('0' + (-INT_MIN) % 10);
+		return ((-INT_MIN) % 10);
 	}
 	else
 		_putchar('0' + u % 10);
