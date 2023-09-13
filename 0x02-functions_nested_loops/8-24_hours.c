@@ -35,8 +35,8 @@ void jack_bauer(void)
 				_putchar('0' + s);
 				_putchar('\n');		
 			}
-			h++;
 		}
+		h++;
 	}
 	for (h = 10 ; h < 24 ; h++)
 	{
