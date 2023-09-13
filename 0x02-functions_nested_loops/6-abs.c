@@ -4,14 +4,12 @@
 /**
  * _abs - write the alphabets in lowercase
  *
- * @int : the alphabets to print
+ * @i : the alphabets to print
  *
  * Return: on success 1.
 */
 
-int _abs(int)
+int _abs(int i)
 {
-	int i;
-
 	return (sqrt(i * i));
 }
