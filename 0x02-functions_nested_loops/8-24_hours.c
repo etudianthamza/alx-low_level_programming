@@ -38,6 +38,7 @@ void jack_bauer(void)
 			}
 		}
 		else
+		{
 			for (; s < 60 ; s++)
 			{
 				if (s < 10)
@@ -54,5 +55,6 @@ void jack_bauer(void)
 				_putchar('0' + s);
 				_putchar('\n');
 			}
+		}
 	}
 }
