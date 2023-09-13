@@ -27,9 +27,11 @@ void jack_bauer(void)
 				{
 					_putchar('0');
 					_putchar('0' + s);
+					_putchar('\n');
 				}
 				else
 					_putchar('0' + s);
+				_putchar('\n');
 			}
 		}
 		else
@@ -41,9 +43,11 @@ void jack_bauer(void)
 			{
 				_putchar('0');
 				_putchar('0' + s);
+				_putchar('\n');
 			}
 			else
 				_putchar('0' + s);
+			_putchar('\n');
 		}
 	}
 }
