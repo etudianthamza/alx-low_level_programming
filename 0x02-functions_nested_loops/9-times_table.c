@@ -30,9 +30,10 @@ void times_table(void)
 					_putchar((result / 10) + '0');
 				}
 				_putchar((result % 10) + '0');
-				if (j == 9)
-					_putchar('\n');
 			}
+			if (j == 9)
+				_putchar('\n');
 		}
 	}
 }
+
