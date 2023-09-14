@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isupper : Print 1 if the alphabet is uppercase , otherwise print 0.
+ * _isupper - Print 1 if the alphabet is uppercase , otherwise print 0.
  *
  * @c:Enter the alphabet uppercase or other things
  *
