@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * fizz_buzz - prints the numbers from 1 to 100.
+ * main - prints the numbers from 1 to 100.
  *
  * Return: always 0 (Success)
  *
 */
-
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 
@@ -39,7 +38,11 @@ void fizz_buzz(void)
 			_putchar('z');
 		}
 		else
+		{
 			_putchar('0' + i);
-		_putchar(' ');
+			_putchar(' ');
+		}
+		_putchar('\n');
+		return (0);
 	}
 }
