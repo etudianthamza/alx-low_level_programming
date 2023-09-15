@@ -13,6 +13,9 @@ void print_line(int n);
 void print_diagonal(int n);
 void print_square(int size);
 void print_triangle(int size);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3329c1e18079731c588660edb623d6c378cc5af3
 
 #endif

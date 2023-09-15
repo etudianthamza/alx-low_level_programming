@@ -1,11 +1,19 @@
 #include "main.h"
 
 /**
+<<<<<<< HEAD
  * main - prints the numbers from 1 to 100.
+=======
+ * main - Entry point
+>>>>>>> 3329c1e18079731c588660edb623d6c378cc5af3
  *
  * Return: always 0 (Success)
  *
 */
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3329c1e18079731c588660edb623d6c378cc5af3
 int main(void)
 {
 	int i;
@@ -42,7 +50,12 @@ int main(void)
 			_putchar('0' + i);
 			_putchar(' ');
 		}
+<<<<<<< HEAD
 		_putchar('\n');
 		return (0);
+=======
+>>>>>>> 3329c1e18079731c588660edb623d6c378cc5af3
 	}
+	_putchar('\n');
+	return (0);
 }
