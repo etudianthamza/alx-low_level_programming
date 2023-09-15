@@ -44,4 +44,5 @@ void fizz_buzz(void)
 			_putchar(' ');
 		}
 	}
+	_putchar('\n');
 }
