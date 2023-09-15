@@ -40,7 +40,7 @@ void fizz_buzz(void)
 		}
 		else
 		{
-			_putchar('0' + i);
+			_putchar("0" + i);
 			_putchar(' ');
 		}
 	}
