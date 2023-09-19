@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- *  _atoi - convert a string to an integer
+ * _atoi - convert a string to an integer
  *
  * @s: string
  *
- * Return : Always 0 (Success)
+ * Return: corrected integer from string
  *
 */
 
