@@ -30,7 +30,8 @@ char *_strncat(char *dest, char *src, int n)
 		}
 		j++;
 	}
-	dest[i + j - 1] = '\0';
+	dest[i + j - 1] = src[j - 1];
+	dest[i + j] = '\0';
 
 	return (dest);
 }
