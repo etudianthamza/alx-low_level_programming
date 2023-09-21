@@ -19,7 +19,7 @@ void reverse_array(int *a, int n)
 			_putchar(',');
 			_putchar(' ');
 		}
-		_putchar(a[i]);
+		_putchar('0' + a[i]);
 		i--;
 	}
 	_putchar('\n');
