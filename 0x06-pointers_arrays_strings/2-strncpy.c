@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+ * _strncat -  concatenates two strings.
  * _strncpy - a function that copies a string.
  *
  *@dest : the first string
