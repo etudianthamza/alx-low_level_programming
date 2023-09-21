@@ -18,8 +18,8 @@ int _strcmp(char *s1, char *s2)
 		{
 			return (*s1 - *s2);
 		}
-		s1++; // increment the pointer of string s1
-		s2++; // increment the pointer of string s2
+		s1++;
+		s2++;
 	}
 
 	return (0);
