@@ -10,11 +10,11 @@
 
 void reverse_array(int *a, int n)
 {
-	int i = n;
+	int i = n - 1;
 
-	while (i > 0)
+	while (i >= 0)
 	{
-		if (i != n)
+		if (i != n - 1)
 		{
 			_putchar(',');
 			_putchar(' ');
