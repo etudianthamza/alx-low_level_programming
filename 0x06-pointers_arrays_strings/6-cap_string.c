@@ -15,17 +15,15 @@ int islower(char c)
  * @u:char
  * Return:Always 0 (Success)
 */
-int isDelimiter(char u)
+int isDelimiter(char c)
 {
 	int o;
 	char delemiter[] = "\t\n,.!?\"(){}";
 
 	for (o = 0 ; o < 12 ; o++)
-	{
-		if (u == delemiter[o])
+		if (c == delemiter[o])
 			return (1);
 	return (0);
-	}
 }
 /**
  * cap_string - function that capitalizes all words of a string
