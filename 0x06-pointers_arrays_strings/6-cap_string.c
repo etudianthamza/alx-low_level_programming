@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * islower - function for charactere lowercase
@@ -7,7 +8,7 @@
  *
 */
 
-int islower(char c)
+int islower(char *c)
 {
 	return (c >= 97 && c <= 122);
 }
@@ -18,7 +19,7 @@ int islower(char c)
  * Return:Always 0 (Success)
 */
 
-int isDelimiter(char c)
+int isDelimiter(char *c)
 {
 	int o;
 	char delemiter[] = " \t\n,.!?\"(){}";
