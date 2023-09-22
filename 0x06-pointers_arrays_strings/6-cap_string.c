@@ -6,15 +6,18 @@
  * Return:Always 0 (Success)
  *
 */
+
 int islower(char c)
 {
 	return (c >= 97 && c <= 122);
 }
+
 /**
  * isDelimiter - function for isDelimiter
  * @u:char
  * Return:Always 0 (Success)
 */
+
 int isDelimiter(char c)
 {
 	int o;
@@ -25,12 +28,14 @@ int isDelimiter(char c)
 			return (1);
 	return (0);
 }
+
 /**
  * cap_string - function that capitalizes all words of a string
  * @y: the char
  * Return:Always 0 (Success)
  *
 */
+
 char *cap_string(char *y)
 {
 	char *ptr = y;
