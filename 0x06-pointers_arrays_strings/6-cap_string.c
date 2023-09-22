@@ -2,20 +2,20 @@
 #include <stdio.h>
 
 /**
- * islower - function for charactere lowercase
+ * isLower - function for charactere lowercase
  * @c: char
  * Return:Always 0 (Success)
  *
 */
 
-int islower(char *c)
+int isLower(char *c)
 {
 	return (c >= 97 && c <= 122);
 }
 
 /**
  * isDelimiter - function for isDelimiter
- * @u:char
+ * @c:char
  * Return:Always 0 (Success)
 */
 
@@ -46,7 +46,7 @@ char *cap_string(char *y)
 	{
 		if (isDelimiter(*y))
 			FindDelimit = 1;
-		else if (islower(*y) && FindDelimit)
+		else if (isLower(*y) && FindDelimit)
 		{
 			*y -= 32;
 			FindDelimit = 0;
