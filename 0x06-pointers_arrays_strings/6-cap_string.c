@@ -18,7 +18,7 @@ int islower(char c)
 int isDelimiter(char c)
 {
 	int o;
-	char delemiter[] = "\t\n,.!?\"(){}";
+	char delemiter[] = " \t\n,.!?\"(){}";
 
 	for (o = 0 ; o < 12 ; o++)
 		if (c == delemiter[o])
