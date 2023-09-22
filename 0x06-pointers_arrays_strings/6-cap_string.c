@@ -8,7 +8,7 @@
  *
 */
 
-int isLower(char *c)
+int isLower(char c)
 {
 	return (c >= 97 && c <= 122);
 }
@@ -19,7 +19,7 @@ int isLower(char *c)
  * Return:Always 0 (Success)
 */
 
-int isDelimiter(char *c)
+int isDelimiter(char c)
 {
 	int o;
 	char delemiter[] = " \t\n,.!?\"(){}";
