@@ -35,5 +35,5 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	return (is_primer_recirsuve(n, 2));
+	return (is_primer_recirsuve(n, 1));
 }
