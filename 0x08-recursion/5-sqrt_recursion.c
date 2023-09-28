@@ -18,7 +18,7 @@ int calculate_square(int n, int guess)
 	if (guess * guess > n)
 	{
 		return (-1);
-	}
+}
 /**
  * _sqrt_recursion - returns the natural square root of a number
  * @n: the integer
