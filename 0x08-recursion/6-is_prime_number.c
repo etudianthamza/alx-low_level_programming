@@ -10,7 +10,7 @@
 
 int is_primer_recirsuve(int n, int diviseur)
 {
-	if (n % diviseur == 0)
+	if (n % diviseur == 0 || n == 1)
 	{
 		return (0);
 	}
@@ -35,5 +35,5 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	return (is_primer_recirsuve(n, 1));
+	return (is_primer_recirsuve(n, 2));
 }
