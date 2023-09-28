@@ -1,5 +1,4 @@
 #include "main.h"
-#include "math.h"
 
 /**
  * calculate_square - function for help us to determinat sqrt
@@ -18,7 +17,10 @@ int calculate_square(int n, int guess)
 	if (guess * guess > n)
 	{
 		return (-1);
+	}
+	return (calculate_square_root(n, guess + 1));
 }
+
 /**
  * _sqrt_recursion - returns the natural square root of a number
  * @n: the integer
