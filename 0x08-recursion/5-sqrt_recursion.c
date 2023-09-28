@@ -18,7 +18,7 @@ int calculate_square(int n, int guess)
 	{
 		return (-1);
 	}
-	return (calculate_square_root(n, guess + 1));
+	return (calculate_square(n, guess + 1));
 }
 
 /**
