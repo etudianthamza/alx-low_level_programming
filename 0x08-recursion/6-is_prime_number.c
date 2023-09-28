@@ -19,7 +19,7 @@ int is_primer_recirsuve(int n, int diviseur)
 		return (1);
 	}
 	return (is_primer_recirsuve(n, diviseur + 1));
-
+}
 /**
  * is_prime_number - test if the input integer is a prime number
  *
