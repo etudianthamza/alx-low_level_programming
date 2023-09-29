@@ -1,6 +1,20 @@
 #include "main.h"
 
 /**
+ *_strlen - the length of a string
+ *@s: the string
+ *
+ *Return: Always 0 (Success)
+*/
+
+int _strlen(char *s)
+{
+	if (*s == '\0')
+		return (0);
+	return (1 + _strlen(s + 1));
+}
+
+/**
  * is_palindrome_for_help - the function for helping us
  *@s: the caractere
  *@start: the integer
@@ -27,11 +41,9 @@ int is_palindrome_for_help(char *s, int start, int end)
 
 int is_palindrome(char *s)
 {
-	int len = 0;
+	int len = _strlen(s);
 
-	if (!s)
+	if (len <= 1)
 		return (1);
-	while (s[len] != '\0')
-		len++;
 	return (is_palindrome_for_help(s, 0, len - 1));
 }
