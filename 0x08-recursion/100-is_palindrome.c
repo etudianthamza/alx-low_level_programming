@@ -20,6 +20,7 @@ int _strlen(char *s)
  *@start: the integer
  *@end: the integer
  *
+ * Return: Always 0 (Success)
 */
 
 int is_palindrome_for_help(char *s, int start, int end)
