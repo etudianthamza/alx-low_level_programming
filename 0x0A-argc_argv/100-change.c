@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main - prints the minimum number of coins to make change
- * @argv: the character
- * @argc: the integer
- * Return: Always 0 (Success)
+ * main-prints the minimum number of coins to make change
+ * @argc: the number of arguments
+ * @argv: an array of strings containing the arguments
+ * Return:Always 0 (Success)
 */
 
 int main(int argc, char *argv[])
