@@ -2,8 +2,8 @@
 
 /**
  * main - prints the minimum number of coins to make change
- * @argv : the character
- * @argc : the integer
+ * @argv: the character
+ * @argc: the integer
  * Return: Always 0 (Success)
 */
 
