@@ -17,15 +17,9 @@ char *str_concat(char *s1, char *s2)
 	for (; s2[j] != '\0' ; j++)
 	;
 	m = malloc(i * sizeof(*s1) + 1);
-
-	if (m == 0)
+	for (; h < i; h++)
 	{
-		return (s1);
-	}
-	else
-	{
-		for (; h < i; h++)
-			m[h] = s1[h];
+		m[h] = s1[h];
 	}
 	m = realloc(m, (i + j) * sizeof(*s2) + 1);
 
