@@ -12,14 +12,19 @@ char *str_concat(char *s1, char *s2)
 	int i = 0, j = 0, h = 0, l = 0;
 	char *m;
 
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
+i
 	for (; s1[i] != '\0'; i++)
 	;
 	for (; s2[j] != '\0' ; j++)
 	;
-	m = (char*)malloc((i + j + 1) * sizeof(char));
+	m = (char *)malloc((i + j + 1) * sizeof(char));
 
 	if (m == NULL)
-		return NULL;
+		return (NULL);
 
 	for (; h < i; h++)
 	{
