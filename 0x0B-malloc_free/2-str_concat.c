@@ -16,21 +16,21 @@ char *str_concat(char *s1, char *s2)
 	;
 	for (; s2[j] != '\0' ; j++)
 	;
-	m = malloc(i * sizeof(*s1) + 1);
+	m = (char*)malloc((i + j + 1) * sizeof(char));
+
+	if (m == NULL)
+		return NULL;
+
 	for (; h < i; h++)
 	{
 		m[h] = s1[h];
 	}
-	m = realloc(m, (i + j) * sizeof(*s2) + 1);
+	for (int l = 0; l < j; l++)
+	{
+		m[h] = s2[l];
+		h++;
+	}
+	m[h] = '\0';
 
-	if (m == 0)
-	{
-		return (s1);
-	}
-	else
-	{
-		for (h = i + 1; h < (i + j); h++)
-			m[h] = s2[h];
-	}
 	return (m);
 }
