@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * realloc - reallocates a memory block using malloc and free.
+ * _realloc - reallocates a memory block using malloc and free.
  * @ptr: the void value.
  * @old_size: the first unsigned integer.
  * @new_size: the second unsigned integer.
+ * Return: Always 0 (Success).
 */
 
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
@@ -13,7 +14,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	unsigned int i;
 
 	if (new_size == old_size)
-		return(ptr);
+		return (ptr);
 	if (new_size == 0 && ptr != NULL)
 	{
 		free(ptr);
