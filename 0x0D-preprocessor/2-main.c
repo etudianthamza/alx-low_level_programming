@@ -6,6 +6,6 @@
 
 int main(void)
 {
-	printf(__FILE__);
-	printf('\n');
+	_putchar(__FILE__);
+	_putchar('\n');
 }
