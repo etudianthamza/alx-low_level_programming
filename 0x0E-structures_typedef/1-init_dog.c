@@ -1,4 +1,5 @@
 #include "dog.h"
+#include <stdlib.h>
 /**
  * init_dog - function that initialize a variable of type struct dog.
  * @d: the object in struct dog.
@@ -11,10 +12,7 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (d != NULL)
-	{
 		d->name = dog.name;
 		d->age = dog.age;
 		d->owner = dog.owner;
-	}
 }
