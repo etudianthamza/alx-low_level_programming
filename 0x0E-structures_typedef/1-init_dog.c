@@ -1,6 +1,4 @@
-#ifndef DOG_H
-#define DOG_H
-
+#include "dog.h"
 /**
  * init_dog - function that initialize a variable of type struct dog.
  * @d: the object in struct dog.
@@ -20,4 +18,3 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 		d->owner = &owner;
 	}
 }
-#endif
