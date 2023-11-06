@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * main - prints the name of the file it was compiled from.
  * Return: Always 0 (Success).
@@ -6,6 +6,6 @@
 
 int main(void)
 {
-	_putchar(__FILE__);
-	_putchar('\n');
+	printf(__FILE__);
+	printf('\n');
 }
