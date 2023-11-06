@@ -1,6 +1,5 @@
 #ifndef DOG_H
 #define DOG_H
-#include "dog.h"
 
 /**
  * init_dog - function that initialize a variable of type struct dog.
@@ -11,6 +10,7 @@
  * Return: Always 0 (Success)
  *
 */
+
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d != NULL)
