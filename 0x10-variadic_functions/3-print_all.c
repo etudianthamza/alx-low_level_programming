@@ -13,7 +13,7 @@ void print_all(const char * const format, ...)
 	char *str;
 
 	va_start(args, format);
-	while (format && format[i])
+	while (format != NULL && format[i])
 	{
 		if (i > 0)
 		{
@@ -41,7 +41,7 @@ void print_all(const char * const format, ...)
 				break;
 		}
 		i++;
+	va_end(args);
 	}
 	printf("\n");
-	va_end(args);
 }
