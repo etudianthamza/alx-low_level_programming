@@ -1,14 +1,14 @@
 #include "lists.h"
 
 /**
- * print_listint - prints a linked lists
+ * print_list - prints a linked lists
  * @h: pointer
  *
  * Return: size of list
 */
 
 
-size_t print_listint(const listint_t *h)
+size_t print_list(const list_t *h)
 {
 	size_t i = 0;
 
