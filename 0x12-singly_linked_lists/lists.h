@@ -10,7 +10,6 @@
  * @str: string
  * @len: length the string
  * @next: points to the next node
- *
 */
 typedef struct list_s
 {
